@@ -1,3 +1,45 @@
+# Python virtual environment
 .venv
-Matrices
-Octrees
+
+# Radiance/PyRadiance generated files
+Matrices/
+Octrees/
+*.oct           # Octree files
+*.rad           # Radiance scene files (if generated)
+*.amb           # Ambient cache files
+*.pic           # Radiance picture files
+*.hdr           # HDR image files
+*.unf           # Unformatted files
+
+# Temporary rendering files
+*.tmp
+temp_*
+raw*.hdr
+*.ppm
+*.tiff
+*.png
+*.jpg
+*.jpeg
+
+# BSDF files (if generated locally)
+*.xml.bak
+*.bsdf
+
+# Log files
+*.log
+*.err
+*.out
+radiance_*.log
+
+# System files
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files (uncomment if needed)
+# *.ies
+# *.dat
+# large_models/
